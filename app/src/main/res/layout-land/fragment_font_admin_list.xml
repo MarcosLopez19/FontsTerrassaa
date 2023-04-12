@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FontAdminListFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:background="@color/listBar"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageViewSort"
+                        android:layout_width="61dp"
+                        android:layout_height="57dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="20dp"
+                        android:adjustViewBounds="true"
+                        android:drawablePadding="16dp"
+                        android:fontFamily="@font/montserrat"
+                        android:padding="12dp"
+                        android:scaleType="center"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ic_sort"
+                        app:drawableRightCompat="@android:drawable/arrow_down_float"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Spinner
+                        android:id="@+id/spinner_order"
+                        android:layout_width="30dp"
+                        android:layout_height="53dp"
+                        android:layout_marginStart="24dp"
+                        android:background="@null"
+                        android:entries="@array/spinner_order_admin"
+                        android:spinnerMode="dropdown"
+                        android:fontFamily="@font/montserrat"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.517"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <ImageView
+                        android:id="@+id/imageViewFilter"
+                        android:layout_width="61dp"
+                        android:layout_height="57dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="20dp"
+                        android:adjustViewBounds="true"
+                        android:drawablePadding="16dp"
+                        android:fontFamily="@font/montserrat"
+                        android:padding="12dp"
+                        android:scaleType="center"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ic_filter"
+                        app:drawableRightCompat="@android:drawable/arrow_down_float"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <SearchView
+                        android:id="@+id/svFonts"
+                        android:layout_width="550dp"
+                        android:layout_height="49dp"
+                        app:iconifiedByDefault="false"
+                        android:goIcon="@null"
+                        android:fontFamily="@font/montserrat"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageViewFilter"
+                        app:layout_constraintHorizontal_bias="0.625"
+                        app:layout_constraintStart_toEndOf="@+id/spinner_order"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.484"
+                        app:queryHint="Buscar" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvFonts"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="90dp"
+                android:fontFamily="@font/montserrat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </RelativeLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addFont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:foregroundGravity="bottom"
+            android:src="@drawable/ic_baseline_add_24"
+            app:backgroundTint="#4CAF50"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

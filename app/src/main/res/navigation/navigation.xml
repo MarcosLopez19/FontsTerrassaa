@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragment_maps">
+
+    <fragment
+        android:id="@+id/fragment_list"
+        android:name="cat.copernic.projecte.fonts_terrassa.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_fragment_list_to_viewFontFragment"
+            app:destination="@id/viewFontFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popUpTo="@id/fragment_maps" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewFontFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.viewFontFragment"
+        android:label="fragment_view_font"
+        tools:layout="@layout/fragment_view_font" >
+        <action
+            android:id="@+id/action_viewFontFragment_to_evaluateFragment"
+            app:destination="@id/evaluateFragment" />
+        <action
+            android:id="@+id/action_viewFontFragment_to_fragment_list"
+            app:destination="@id/fragment_list"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/fragment_maps" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_info"
+        android:name="cat.copernic.projecte.fonts_terrassa.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" >
+        <action
+            android:id="@+id/action_fragment_info_to_infoBeureFragment"
+            app:destination="@id/fragment_info_beure" />
+        <action
+            android:id="@+id/action_fragment_info_to_infoSingularFragment"
+            app:destination="@id/fragment_info_singular" />
+        <action
+            android:id="@+id/action_fragment_info_to_infoOrnamentalFragment"
+            app:destination="@id/fragment_info_ornamental" />
+        <action
+            android:id="@+id/action_fragment_info_to_infoNaturalFragment"
+            app:destination="@id/fragment_info_natural" />
+        <action
+            android:id="@+id/action_fragment_info_to_infoGosFragment"
+            app:destination="@id/fragment_info_gos" />
+        <action
+            android:id="@+id/action_fragment_info_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_info_beure"
+        android:name="cat.copernic.projecte.fonts_terrassa.InfoBeureFragment"
+        android:label="fragment_info_beure"
+        tools:layout="@layout/fragment_info_beure" />
+    <fragment
+        android:id="@+id/fragment_info_singular"
+        android:name="cat.copernic.projecte.fonts_terrassa.InfoSingularFragment"
+        android:label="fragment_info_singular"
+        tools:layout="@layout/fragment_info_singular" />
+    <fragment
+        android:id="@+id/fragment_info_ornamental"
+        android:name="cat.copernic.projecte.fonts_terrassa.InfoOrnamentalFragment"
+        android:label="fragment_info_ornamental"
+        tools:layout="@layout/fragment_info_ornamental" />
+    <fragment
+        android:id="@+id/fragment_info_natural"
+        android:name="cat.copernic.projecte.fonts_terrassa.InfoNaturalFragment"
+        android:label="fragment_info_natural"
+        tools:layout="@layout/fragment_info_natural" />
+    <fragment
+        android:id="@+id/fragment_info_gos"
+        android:name="cat.copernic.projecte.fonts_terrassa.InfoGosFragment"
+        android:label="fragment_info_gos"
+        tools:layout="@layout/fragment_info_gos" />
+    <fragment
+        android:id="@+id/evaluateFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.EvaluateFragment"
+        android:label="fragment_evaluate"
+        tools:layout="@layout/fragment_evaluate" >
+        <action
+            android:id="@+id/action_evaluateFragment_to_viewFontFragment"
+            app:destination="@id/viewFontFragment"
+            app:popUpTo="@id/fragment_maps" />
+    </fragment>
+    <fragment
+        android:id="@+id/adminFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.AdminFragment"
+        android:label="fragment_admin"
+        tools:layout="@layout/fragment_admin" >
+        <action
+            android:id="@+id/action_adminFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@id/fragment_info" />
+        <action
+            android:id="@+id/action_adminFragment_to_registerUserFragment"
+            app:destination="@id/registerUserFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_editFontFragment"
+            app:destination="@id/editFontFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_fontAdminListFragment"
+            app:destination="@id/fontAdminListFragment" />
+        <action
+            android:id="@+id/action_adminFragment_to_usersAdminListFragment"
+            app:destination="@id/usersAdminListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.Login2Fragment"
+        android:label="fragment_login2"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_recuperarFragment"
+            app:destination="@id/recuperarFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_adminFragment"
+            app:destination="@id/adminFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerUserFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.RegisterUserFragment"
+        android:label="fragment_register_user"
+        tools:layout="@layout/fragment_register_user" >
+        <action
+            android:id="@+id/action_registerUserFragment_to_adminFragment"
+            app:destination="@id/adminFragment"
+            app:popUpTo="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_maps"
+        android:name="cat.copernic.projecte.fonts_terrassa.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" >
+        <action
+            android:id="@+id/action_mapsFragment_to_viewFontFragment"
+            app:destination="@id/viewFontFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFontFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.EditFontFragment"
+        android:label="fragment_edit_font"
+        tools:layout="@layout/fragment_edit_font" >
+        <action
+            android:id="@+id/action_editFontFragment_to_fontAdminListFragment"
+            app:destination="@id/fontAdminListFragment"
+            app:enterAnim="@anim/slide_in_left"
+            app:popUpTo="@id/adminFragment" />
+        <action
+            android:id="@+id/action_editFontFragment_to_adminFragment"
+            app:destination="@id/adminFragment"
+            app:popUpTo="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fontAdminListFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.FontAdminListFragment"
+        android:label="fragment_font_admin_list"
+        tools:layout="@layout/fragment_font_admin_list" >
+        <action
+            android:id="@+id/action_fontAdminListFragment_to_editFontFragment2"
+            app:destination="@id/editFontFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/usersAdminListFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.UsersAdminListFragment"
+        android:label="fragment_users_admin_list"
+        tools:layout="@layout/fragment_users_admin_list" />
+    <fragment
+        android:id="@+id/recuperarFragment"
+        android:name="cat.copernic.projecte.fonts_terrassa.RecuperarFragment"
+        android:label="fragment_recuperar"
+        tools:layout="@layout/fragment_recuperar" />
+</navigation>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".InfoFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/mainBackground">
+
+            <TextView
+                android:id="@+id/txt_terrassa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ajuntament"
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/spinner_language" />
+
+            <TextView
+                android:id="@+id/txt_oat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/oat"
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_terrassa" />
+
+            <TextView
+                android:id="@+id/txt_copernic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/copernic"
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_oat" />
+
+            <TextView
+                android:id="@+id/txt_autors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/autors"
+                android:textColor="@color/textColor"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_copernic" />
+
+            <Button
+                android:id="@+id/btn_beure"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="28dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/gota_1_small"
+                android:drawablePadding="40dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:inputType="textCapSentences"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/fonts_boca"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol"
+                tools:ignore="TextViewEdits" />
+
+            <Button
+                android:id="@+id/btn_singular"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/gota_2_small"
+                android:drawablePadding="40dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:inputType="textCapSentences"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/fonts_boca_singulars"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_beure"
+                tools:ignore="TextViewEdits" />
+
+            <Button
+                android:id="@+id/btn_ornamental"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/gota_3_small"
+                android:drawablePadding="40dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:inputType="textCapSentences"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/fonts_ornamentals"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_singular"
+                tools:ignore="TextViewEdits" />
+
+            <Button
+                android:id="@+id/btn_natural"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/gota_4_small"
+                android:drawablePadding="40dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:inputType="textCapSentences"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/fonts_naturals"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_ornamental"
+                tools:ignore="TextViewEdits" />
+
+            <Button
+                android:id="@+id/btn_gos"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/gota_5_small"
+                android:drawablePadding="40dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_vertical"
+                android:inputType="textCapSentences"
+                android:paddingStart="20dp"
+                android:paddingEnd="0dp"
+                android:text="@string/fonts_gossos"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_natural"
+                tools:ignore="TextViewEdits" />
+
+            <TextView
+                android:id="@+id/txt_titol"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/info_title"
+                android:textColor="@color/textColor"
+                android:textSize="28sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/btn_login_admin"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="30dp"
+                android:background="@null"
+                android:contentDescription="@string/login_admin"
+                android:src="@drawable/ic_security"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Spinner
+                android:id="@+id/spinner_language"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginEnd="220dp"
+                android:entries="@array/spinner_language"
+                android:fontFamily="@font/montserrat"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_gos"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/txt_language"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/language"
+                android:textColor="@color/textColor"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_gos" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

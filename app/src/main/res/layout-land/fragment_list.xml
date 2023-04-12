@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ListFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/frameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutHeader"
+                android:layout_width="match_parent"
+                android:layout_height="82dp"
+                android:background="@color/listBar"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageViewSort"
+                        android:layout_width="61dp"
+                        android:layout_height="57dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="20dp"
+                        android:adjustViewBounds="true"
+                        android:drawablePadding="16dp"
+                        android:padding="12dp"
+                        android:scaleType="center"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ic_sort"
+                        app:drawableRightCompat="@android:drawable/arrow_down_float"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <Spinner
+                        android:id="@+id/spinner_order"
+                        android:layout_width="31dp"
+                        android:layout_height="50dp"
+                        android:background="@null"
+                        android:entries="@array/spinner_order"
+                        android:spinnerMode="dropdown"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="@+id/imageViewSort"
+                        app:layout_constraintStart_toStartOf="@+id/imageViewSort"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.517" />
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="61dp"
+                        android:layout_height="57dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="20dp"
+                        android:adjustViewBounds="true"
+                        android:drawablePadding="16dp"
+                        android:padding="12dp"
+                        android:scaleType="center"
+                        android:scaleX="1.5"
+                        android:scaleY="1.5"
+                        android:src="@drawable/ic_filter"
+                        app:drawableRightCompat="@android:drawable/arrow_down_float"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <SearchView
+                        android:id="@+id/svFonts"
+                        android:layout_width="550dp"
+                        android:layout_height="49dp"
+                        android:goIcon="@null"
+                        app:iconifiedByDefault="false"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView"
+                        app:layout_constraintStart_toEndOf="@+id/imageViewSort"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:queryHint="Buscar" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFonts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

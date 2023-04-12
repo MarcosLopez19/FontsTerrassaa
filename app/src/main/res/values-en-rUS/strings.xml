@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fonts Terrassa</string>
+    <string name="fonts_boca">Drinking fountains</string>
+    <string name="mapa">map</string>
+    <string name="info">info</string>
+    <string name="language">Language</string>
+    <string name="acceptar">Accept</string>
+    <string name="administrar_fonts">Manage fountains</string>
+    <string name="admin">Administrator</string>
+    <string name="accedir">Access</string>
+    <string name="administrar_usuaris">Activate Users</string>
+    <string name="adreca">Address</string>
+    <string name="ajuntament">Ajuntament de Terrassa</string>
+    <string name="autors">Roger Puig Font and Xavi Carné Plandolit</string>
+    <string name="buit">Is Empty</string>
+    <string name="camps_no_omplerts">There are one or more mising fields, check the name and/or the coordinates</string>
+    <string name="carregant_app">Loading...</string>
+    <string name="confirmacio">Confirmation</string>
+    <string name="contrasenya_no_igual">Inserted passwords are not equal</string>
+    <string name="coordenades_font">Font coordinates</string>
+    <string name="correu_incorrecte">Incorrect email</string>
+    <string name="correu_introduit">Inserted email already exists</string>
+    <string name="crear_fonts">Create a fountain</string>
+    <string name="crear_usuaris">Create a user</string>
+    <string name="dades_incorrectes">Inserted information is incorrect</string>
+    <string name="dark">Dark mode</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="descartar">Discard</string>
+    <string name="eliminar_font">Delete font</string>
+    <string name="email">Email</string>
+    <string name="enviar">Send</string>
+    <string name="error">ERROR</string>
+    <string name="error_eliminar_font">Error deleting the fountain</string>
+    <string name="Error_pujar_foto">ERROR UPLOADING THE PHOTO</string>
+    <string name="Exit_pujar_foto">PHOTO UPLOADED SUCCESSFULLY</string>
+    <string name="font_eliminada">Fountain successfully deleted</string>
+    <string name="font_no_eliminada">Fountain not deleted</string>
+    <string name="fonts_boca_singulars">Unique drinking fountains</string>
+    <string name="fonts_gossos">Dogs fountains</string>
+    <string name="fonts_naturals">Natural fountains</string>
+    <string name="fonts_ornamentals">Ornamental fountains</string>
+    <string name="gracies_avaluacio">Thank you for evaluating the fountrain</string>
+    <string name="gust">Taste</string>
+    <string name="id">ID</string>
+    <string name="id_font_existeix">Inserted fountrain ID already exists</string>
+    <string name="imatge_eliminada">Fountain deleted successfully, remember to save the changes</string>
+    <string name="imatge_pujada_correctament">Fountain uploaded successfully, remember to save the changes</string>
+    <string name="info_font_admin">" Here we have all the information of the source that wants to add from the administration."</string>
+    <string name="info_title">Information</string>
+    <string name="informacio">Information</string>
+    <string name="latitud">Latitude</string>
+    <string name="llista">Longitude</string>
+    <string name="login">Log in</string>
+    <string name="login_admin">Log in button for administrators</string>
+    <string name="lon">lon</string>
+    <string name="longitud">Longitude</string>
+    <string name="missatge_enviat">Message sent</string>
+    <string name="no_avaluat">all fields haven\'t been evaluated</string>
+    <string name="nom_font">Fountrain name</string>
+    <string name="oat">Observatori de l\'Aigua de Terrassa</string>
+    <string name="olor">Smell</string>
+    <string name="password">Password</string>
+    <string name="puntua_gust">1. Rate the taste from 1 to 5</string>
+    <string name="puntua_olor">2. Rate the smell from 1 to 5</string>
+    <string name="puntua_transperencia">3. Rate the transparency from 1 to 5</string>
+    <string name="recordar">Forgot password?</string>
+    <string name="register">Register</string>
+    <string name="registerAdmin">Administrator register</string>
+    <string name="repeatPassword">Repeat password</string>
+    <string name="restore">Forgot password?</string>
+    <string name="sampleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo dolor quis luctus dapibus. Aliquam pharetra felis tellus, dictum aliquam lorem bibendum et. Proin vitae ipsum congue, dictum nunc vel, volutpat lacus. Vivamus suscipit tellus arcu, vel pretium sem sagittis ac. Phasellus varius neque leo, quis condimentum tortor tempus in. Vivamus consequat felis in arcu laoreet, sit amet finibus tellus commodo. Mauris suscipit nulla tellus, nec tempus nulla consectetur in. Cras eu odio turpis.</string>
+    <string name="seleccionar_tipus_font">Select font type</string>
+    <string name="seleccionar_tot">Select all</string>
+    <string name="surname">Second name</string>
+    <string name="tancar_sessio">Log out</string>
+    <string name="tipus_font">Font type</string>
+    <string name="transperencia">Trasparency</string>
+    <string name="uknown">uknown</string>
+    <string name="username">Name</string>
+    <string name="usuari_inactiu">Inactive user</string>
+    <string name="valoracio_mitjana">Average rating</string>
+    <string name="version">Application version: 1.0.0</string>
+    <string name="zero_km">0 km</string>
+    <string-array name="spinner_language">
+        <item>Català</item>
+        <item>Español</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="spinner_estats">
+        <item>@string/disponible</item>
+        <item>@string/no_disponible</item>
+    </string-array>
+    <string-array name="spinner_filter">
+        <item>@string/fonts_boca</item>
+        <item>@string/fonts_boca_singulars</item>
+        <item>@string/fonts_ornamentals</item>
+        <item>@string/fonts_naturals</item>
+        <item>@string/fonts_gossos</item>
+    </string-array>
+    <string-array name="spinner_order">
+        <item>@string/nom_asc</item>
+        <item>@string/nom_desc</item>
+        <item>@string/distancia_asc</item>
+        <item>@string/distancia_desc</item>
+        <item>@string/tipus</item>
+    </string-array>
+    <string-array name="spinner_order_admin">
+        <item>Name ASC</item>
+        <item>Name DESC</item>
+        <item>Type</item>
+    </string-array>
+    <string name="atencio">Warning</string>
+    <string name="nom_asc">Name ASC</string>
+    <string name="nom_desc">Name DESC</string>
+    <string name="distancia_asc">Distance ASC</string>
+    <string name="distancia_desc">Distance DESC</string>
+    <string name="tipus">Type</string>
+    <string name="sortir">Exit</string>
+    <string name="no_internet_con">No internet connection, you must have internet enabled to use the app</string>
+    <string name="titol_notificacio">Fonts Terrassa</string>
+    <string name="desc_notificacio">Administrator created successfully</string>
+    <string name="lat">lat</string>
+    <string name="avalua_aigua">Evaluate the water quality</string>
+    <string name="min_caracters">The password needs to have at least 6 characters</string>
+    <string name="font_boca">Drinking fountain</string>
+    <string name="font_boca_singular">Unique drinking fountain</string>
+    <string name="font_ornamental">Ornamental fountain</string>
+    <string name="font_natural">Natural fountain</string>
+    <string name="font_gos">Dog fountain</string>
+    <string name="lat_lon_notDouble">Lat or lon text must be numeric</string>
+    <string name="guardar">Save</string>
+    <string name="anar">Go</string>
+    <string name="gps_network_not_enabled">To load the feeds, you\'ll need to turn on the device\'s location, turn it on, and try again</string>
+    <string name="disponible">AVAILABLE</string>
+    <string name="no_disponible">NOT AVAILABLE</string>
+    <string name="garentia_sanitaria">Water without sanitary guarantee</string>
+    <string name="valoracions">ratings</string>
+    <string name="copernic">Institut Nicolau Copèrnic</string>
+    <string name="avalua">Evaluate</string>
+    <string name="nota_login">Nota: no se que posar exactament xd</string>
+    <string name="incidencia">Report incidence</string>
+    <string name="lon_y_lati">lon and lat</string>
+    <string name="long_i_lat">lon and lat</string>
+    <string name="logitud_i_latitud">"longitude and latitude "</string>
+    <string name="infoFontNatural">We call a natural fountain that which emerges from underground water, which is not used for commercial purposes and is not connected to reservoirs or public distribution networks. They are not always analytically controlled and therefore cannot be considered suitable for human consumption</string>
+    <string name="infoFontOrnamental">"It is identified with a construction of stone, brick, iron, etc., and usually has a channel from which water comes out, a faucet and a container that collects it, mainly for decorative purposes. Usually the water used is part of a closed circuit and is not suitable for human consumption. Sometimes, no water comes out of this source and only the construction part remains. They are part of the urban solutions that bring beauty, wealth and vitality to the environment, the ornamental fountains adorn avenues, streets and parks. Some can be considered genuine works of art. "</string>
+    <string name="infoFontBeure">"It offers mouth watering to pedestrian citizens. All these fountains have in common the tap to be able to drink, regardless of their morphology or material. They are suitable for human consumption. "</string>
+    <string name="infoFontSingular">It offers mouth watering, however, unique fountains tend to have a specific name with a history or identity of its own whether artistic, architectural or social that makes it stand out from the rest of the normal drinking fountains.</string>
+    <string name="infoFontGos">It offers drinking water suitable for human consumption, but they are adapted for drinking by animals, usually in leisure areas and squares.</string>
+</resources>

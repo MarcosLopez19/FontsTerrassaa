@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EvaluateFragment">
+
+    <ScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:isScrollContainer="false">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="720dp">
+
+            <TextView
+                android:id="@+id/test_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/avalua_aigua"
+                android:textColor="@color/textColor"
+                android:textSize="22sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_val5"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/star_transperencia_val4"
+                app:layout_constraintTop_toBottomOf="@+id/test_transperencia" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_val4"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/star_transperencia_val3"
+                app:layout_constraintTop_toBottomOf="@+id/test_transperencia" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_val3"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/test_transperencia" />
+
+            <ImageView
+                android:id="@+id/star_olor_val1"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toStartOf="@+id/star_olor_val2"
+                app:layout_constraintTop_toBottomOf="@+id/test_olor" />
+
+            <ImageView
+                android:id="@+id/star_olor_val5"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/star_olor_val4"
+                app:layout_constraintTop_toBottomOf="@+id/test_olor" />
+
+            <ImageView
+                android:id="@+id/star_olor_val4"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/star_olor_val3"
+                app:layout_constraintTop_toBottomOf="@+id/test_olor" />
+
+            <ImageView
+                android:id="@+id/star_gust_val5"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/star_gust_val4"
+                app:layout_constraintTop_toBottomOf="@+id/test_gust" />
+
+            <ImageView
+                android:id="@+id/star_gust_val4"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/star_gust_val3"
+                app:layout_constraintTop_toBottomOf="@+id/test_gust" />
+
+            <ImageView
+                android:id="@+id/star_gust_val3"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/test_gust" />
+
+            <ImageView
+                android:id="@+id/star_gust_val1"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toStartOf="@+id/star_gust_val2"
+                app:layout_constraintTop_toBottomOf="@+id/test_gust" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_val1"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toStartOf="@+id/star_transperencia_val2"
+                app:layout_constraintTop_toBottomOf="@+id/test_transperencia" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_val2"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toStartOf="@+id/star_transperencia_val3"
+                app:layout_constraintTop_toBottomOf="@+id/test_transperencia" />
+
+            <ImageView
+                android:id="@+id/star_olor_val2"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toStartOf="@+id/star_olor_val3"
+                app:layout_constraintTop_toBottomOf="@+id/test_olor" />
+
+            <ImageView
+                android:id="@+id/star_olor_val3"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/test_olor" />
+
+            <ImageView
+                android:id="@+id/star_gust_val2"
+                android:layout_width="43dp"
+                android:layout_height="38dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintEnd_toStartOf="@+id/star_gust_val3"
+                app:layout_constraintTop_toBottomOf="@+id/test_gust" />
+
+            <Button
+                android:id="@+id/btn_evaluate"
+                android:layout_width="160dp"
+                android:layout_height="52dp"
+                android:layout_marginTop="60dp"
+                android:drawableLeft="@drawable/ic_send"
+                android:text="@string/guardar"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/star_transperencia_val3"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/test_gust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/puntua_gust"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/test_title" />
+
+            <TextView
+                android:id="@+id/test_olor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/puntua_olor"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/star_gust_val3" />
+
+            <TextView
+                android:id="@+id/test_transperencia"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:text="@string/puntua_transperencia"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/star_olor_val3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

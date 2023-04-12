@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="btnBackStyle">
+        <item name="android:layout_width">27dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:backgroundTint">#00FFFFFF</item>
+        <item name="android:src">@drawable/ic_back</item>
+    </style>
+</resources>

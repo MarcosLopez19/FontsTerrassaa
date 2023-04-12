@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".viewFontFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/countValoracionsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/textColor"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/star_transperencia_5"
+                app:layout_constraintStart_toStartOf="@+id/star_transperencia_1"
+                app:layout_constraintTop_toBottomOf="@+id/txt_trasperencia" />
+
+            <TextView
+                android:id="@+id/estatText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/textColor"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/img_font" />
+
+            <ImageView
+                android:id="@+id/imgFontType"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="10dp"
+                android:scaleX="1.25"
+                android:scaleY="1.25"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="@+id/tipus_font_txt"
+                app:layout_constraintStart_toEndOf="@+id/tipus_font_txt"
+                app:layout_constraintTop_toTopOf="@+id/tipus_font_txt" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="102dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_trasperencia"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/btnBack"
+                style="@style/btnBackStyle"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="102dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_trasperencia"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_olor_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="62dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_olor"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_olor_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="62dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_olor"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <TextView
+                android:id="@+id/txt_informacio"
+                android:layout_width="287dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="242dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_informacio" />
+
+            <ImageView
+                android:id="@+id/img_accesibilitat"
+                android:layout_width="47dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="170dp"
+                android:src="@drawable/ic_type"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_tipus_font"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_tipus_font" />
+
+            <ImageView
+                android:id="@+id/img_info"
+                android:layout_width="50dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="170dp"
+                android:src="@drawable/ic_baseline_info_24"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_titol_informacio"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_titol_informacio" />
+
+            <ImageView
+                android:id="@+id/star_olor_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="62dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_olor"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_gust_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txtgust"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_gust_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txtgust"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_gust_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txtgust"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <TextView
+                android:id="@+id/txt_nom_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="30dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center_horizontal"
+                android:textColor="@color/textColor"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/img_font"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_nom_font"
+                tools:src="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txt_titol_valoracio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/valoracio_mitjana"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_check"
+                app:layout_constraintTop_toBottomOf="@+id/estatText" />
+
+            <TextView
+                android:id="@+id/txt_tipus_font"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/tipus_font"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_accesibilitat"
+                app:layout_constraintTop_toBottomOf="@+id/countValoracionsText" />
+
+            <TextView
+                android:id="@+id/tipus_font_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/textColor"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/txt_tipus_font"
+                app:layout_constraintTop_toBottomOf="@+id/txt_tipus_font" />
+
+            <TextView
+                android:id="@+id/txt_titol_informacio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/informacio"
+                android:textColor="@color/textColor"
+                android:textSize="20sp"
+                app:layout_constraintStart_toEndOf="@+id/img_info"
+                app:layout_constraintTop_toBottomOf="@+id/tipus_font_txt" />
+
+            <ImageView
+                android:id="@+id/img_check"
+                android:layout_width="51dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="166dp"
+                android:src="@drawable/ic_baseline_check_circle_24"
+                app:layout_constraintBottom_toBottomOf="@+id/txt_titol_valoracio"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/txt_titol_valoracio" />
+
+            <TextView
+                android:id="@+id/txt_trasperencia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/transperencia"
+                android:textColor="@color/textColor"
+                app:layout_constraintEnd_toEndOf="@+id/txt_olor"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <TextView
+                android:id="@+id/txt_olor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="65dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/olor"
+                android:textColor="@color/textColor"
+                app:layout_constraintEnd_toEndOf="@+id/txtgust"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <TextView
+                android:id="@+id/txtgust"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/gust"
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_gust_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txtgust"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_olor_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="62dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_olor"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="102dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_trasperencia"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="102dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_trasperencia"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_transperencia_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="102dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_trasperencia"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_olor_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="62dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txt_olor"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <ImageView
+                android:id="@+id/star_gust_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="22dp"
+                android:src="@drawable/ic_starempty"
+                app:layout_constraintStart_toEndOf="@+id/txtgust"
+                app:layout_constraintTop_toBottomOf="@+id/txt_titol_valoracio" />
+
+            <Button
+                android:id="@+id/btn_testWater"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:drawableLeft="@drawable/ic_checkquality"
+                android:text="@string/avalua"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/btn_goToMaps"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_informacio" />
+
+            <Button
+                android:id="@+id/btn_incidencia"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#FAB54F"
+                android:drawableLeft="@drawable/ic_problem"
+                android:text="@string/incidencia"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.519"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_goToMaps" />
+
+            <Button
+                android:id="@+id/btn_goToMaps"
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                android:drawableLeft="@drawable/ic_map_viewfont"
+                android:text="@string/anar"
+                android:textColor="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/btn_testWater"
+                app:layout_constraintTop_toBottomOf="@+id/txt_informacio" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</layout>

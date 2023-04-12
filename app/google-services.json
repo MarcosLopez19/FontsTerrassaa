@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1070204438471",
+    "project_id": "fonts-terrassa",
+    "storage_bucket": "fonts-terrassa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070204438471:android:951854374755ba03ac3be2",
+        "android_client_info": {
+          "package_name": "cat.copernic.projecte.fonts_terrassa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070204438471-5fifk9shh6fbdiv00rdvapp3t63mnlrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-umYEdP9q9iBKyAXPLmBize2oI5gv1Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070204438471-5fifk9shh6fbdiv00rdvapp3t63mnlrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

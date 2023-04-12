@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fonts Terrassa</string>
+    <string name="mapa">mapa</string>
+    <string name="info">info</string>
+    <string name="fonts_boca">Fuentes de beber</string>
+    <string name="acceptar">Aceptar</string>
+    <string name="fonts_boca_singulars">Fuentes de beber singulares</string>
+    <string name="fonts_ornamentals">Fuentes ornamentales</string>
+    <string name="fonts_naturals">Fuentes naturales</string>
+    <string name="fonts_gossos">Fuentes de perros</string>
+    <string name="login_admin">Botón inicio de sessión administradores</string>
+    <string name="ajuntament">Ajuntament de Terrassa</string>
+    <string name="oat">Observatori de l\'Aigua de Terrassa</string>
+    <string name="version">Versión de la aplicación</string>
+    <string name="autors">Roger Puig Font i Xavi Carné Plandolit</string>
+    <string name="language">Idioma</string>
+    <string name="admin">Administrador</string>
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="restore">Has olvidado la contraseña?</string>
+    <string name="login">Iniciar sessión</string>
+    <string name="recordar">Has olvidado la contraseña?</string>
+    <string name="enviar">Enviar</string>
+    <string name="register">Registrar</string>
+    <string name="registerAdmin">Registrar administrador</string>
+    <string name="username">Nombre</string>
+    <string name="surname">Apellidos</string>
+    <string name="repeatPassword">Repetir contraseña</string>
+    <string name="Error_pujar_foto">ERROR AL SUBIR LA IMAGEN</string>
+    <string name="Exit_pujar_foto">ÉXITO AL SUBIR LA IMAGEN</string>
+    <string name="accedir">Acceder</string>
+    <string name="carregant_app">Cargando...</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="administrar_usuaris">Activar usuarios</string>
+    <string name="administrar_fonts">Administrador fuentes</string>
+    <string name="crear_fonts">Crear una fuente</string>
+    <string name="crear_usuaris">Crear un usuario</string>
+    <string name="tancar_sessio">Cerrar sessión</string>
+    <string name="tipus_font">Tipo de fuente</string>
+    <string name="info_font_admin">Aqui tenemos toda la información de la fuente que se quiera añadir desde la administración</string>
+    <string name="nom_font">Nombre de la fuente</string>
+    <string name="coordenades_font">Coordenadas de la fuente</string>
+    <string name="informacio">Información</string>
+    <string name="lon">lon</string>
+    <string name="latitud">Latitud</string>
+    <string name="longitud">Longitud</string>
+    <string name="adreca">Dirección</string>
+    <string name="id">ID</string>
+    <string name="puntua_gust">1. Puntua el gusto del 1 al 5</string>
+    <string name="puntua_olor">2. Puntua el olor del 1 al 5</string>
+    <string name="puntua_transperencia">3. Puntua la transparencia del agua del 1 al 5</string>
+    <string name="valoracio_mitjana">Valoración media</string>
+    <string name="transperencia">Transparencia</string>
+    <string name="olor">Olor</string>
+    <string name="gust">Gusto</string>
+    <string name="zero_km">0 km</string>
+    <string name="uknown">unkown</string>
+    <string name="error">ERROR</string>
+    <string name="correu_introduit">El correo introducido ya existe en la base de datos</string>
+    <string name="contrasenya_no_igual">Las contraseñas introducidas no son iguales</string>
+    <string name="missatge_enviat">Mensaje enviado</string>
+    <string name="correu_incorrecte">Correo incorrecto</string>
+    <string name="seleccionar_tipus_font">Seleccionar tipo de fuente</string>
+    <string name="seleccionar_tot">Seleccionarlo todo</string>
+    <string name="usuari_inactiu">Usuario inactivo</string>
+    <string name="dades_incorrectes">Los datos introducidos son incorrectos</string>
+    <string name="buit">Está vacío</string>
+    <string name="gracies_avaluacio">Gracias por evaluar la fuente</string>
+    <string name="no_avaluat">No se han evaluado todos los campos</string>
+    <string name="imatge_eliminada">Imagen eliminada correctamente, recuerda guardar cambios</string>
+    <string name="id_font_existeix">Aqui tenemos toda la información de la fuente que se quiera añadir desde la administración</string>
+    <string name="camps_no_omplerts">Hay uno o más campos obligatorios no rellenados</string>
+    <string name="imatge_pujada_correctament">Imagen subida correctamente</string>
+    <string name="confirmacio">Confirmación</string>
+    <string name="eliminar_font">Eliminar fuente</string>
+    <string name="font_eliminada">Fuente eliminada correctmanente</string>
+    <string name="error_eliminar_font">Error en eliminar la fuente</string>
+    <string name="descartar">Descartar</string>
+    <string name="font_no_eliminada">La fuente no se ha eliminado</string>
+    <string name="dark">Modo oscuro</string>
+    <string name="llista">Lista</string>
+    <string name="sampleText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris commodo dolor quis luctus dapibus. Aliquam pharetra felis tellus, dictum aliquam lorem bibendum et. Proin vitae ipsum congue, dictum nunc vel, volutpat lacus. Vivamus suscipit tellus arcu, vel pretium sem sagittis ac. Phasellus varius neque leo, quis condimentum tortor tempus in. Vivamus consequat felis in arcu laoreet, sit amet finibus tellus commodo. Mauris suscipit nulla tellus, nec tempus nulla consectetur in. Cras eu odio turpis.</string>
+    <string-array name="spinner_language">
+        <item>Català</item>
+        <item>Español</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="spinner_estats">
+        <item>@string/disponible</item>
+        <item>@string/no_disponible</item>
+    </string-array>
+    <string-array name="spinner_order">
+        <item>@string/nom_asc</item>
+        <item>@string/nom_desc</item>
+        <item>@string/distancia_asc</item>
+        <item>@string/distancia_desc</item>
+        <item>@string/tipus</item>
+    </string-array>
+    <string-array name="spinner_filter">
+        <item>@string/fonts_boca</item>
+        <item>@string/fonts_boca_singulars</item>
+        <item>@string/fonts_ornamentals</item>
+        <item>@string/fonts_naturals</item>
+        <item>@string/fonts_gossos</item>
+    </string-array>
+    <string-array name="spinner_order_admin">
+        <item>Nombre ASC</item>
+        <item>Nombre DESC</item>
+        <item>Tipo</item>
+    </string-array>
+    <string name="info_title">Información</string>
+    <string name="atencio">Advertencia</string>
+    <string name="nom_asc">Nombre ASC</string>
+    <string name="nom_desc">Nombre DESC</string>
+    <string name="distancia_asc">Distancia ASC</string>
+    <string name="distancia_desc">Distancia DESC</string>
+    <string name="tipus">Tipo</string>
+    <string name="sortir">Salir</string>
+    <string name="no_internet_con">No hay internet, es necesario tener internet para utilizar la app</string>
+    <string name="titol_notificacio">Fonts Terrassa</string>
+    <string name="desc_notificacio">Administrador creado correctamente</string>
+    <string name="lat">lat</string>
+    <string name="avalua_aigua">Evalua la calidad del agua</string>
+    <string name="min_caracters">La contraseña ha de tener como mínimo 6 caracteres</string>
+    <string name="font_boca">Fuente de beber</string>
+    <string name="font_gos">Fuente de perro</string>
+    <string name="font_natural">Fuente natural</string>
+    <string name="font_ornamental">Fuente ornamental</string>
+    <string name="font_boca_singular">Fuente de beber singular</string>
+    <string name="lat_lon_notDouble">El texto de latitud o longitud ha der ser numérico.</string>
+    <string name="guardar">Guardar</string>
+    <string name="anar">Ir</string>
+    <string name="gps_network_not_enabled">" Para cargar las fuentes, tendrá que activar la ubicación del dispositivo, actívala y vuelva a intentarlo"</string>
+    <string name="disponible">DISPONIBLE</string>
+    <string name="no_disponible">NO DISPONIBLE</string>
+    <string name="garentia_sanitaria">" Agua sin garantía sanitaria"</string>
+    <string name="valoracions">valoraciones</string>
+    <string name="copernic">Institut Nicolau Copèrnic</string>
+    <string name="avalua">Evalúa</string>
+    <string name="nota_login">Nota: no se que posar exactament xd</string>
+    <string name="incidencia">Informar incidencia</string>
+    <string name="lon_y_lati">lon y lati</string>
+    <string name="long_i_lat">long y lat</string>
+    <string name="logitud_i_latitud">longitud y latitud</string>
+    <string name="infoFontNatural">Llamamos fuente natural a aquella que aflora de las aguas subterráneas, que no es utilizada con finalidad comercial y, no están conectadas a depósitos o redes de distribución pública. No siempre están controladas analíticamente y por tanto no se pueden considerar aptas para el consumo humano.</string>
+    <string name="infoFontOrnamental">Se identifica con una construcción de piedra, ladrillo, hierro, etc., y normalmente dispone de un canal de donde sale agua, de un grifo y de un recipiente que la recoge, principalmente con finalidad decorativa. Normalmente, el agua utilizada forma parte de un circuito cerrado y no es apta para el consumo humano. A veces, de esta fuente no sale agua y sólo queda la parte de obra. Forman parte de las soluciones urbanísticas que aportan belleza, riqueza y vitalidad al entorno, las fuentes ornamentales adornan avenidas, calles y parques. Algunas pueden considerarse auténticas obras de arte.</string>
+    <string name="infoFontBeure">Ofrece agua de boca a la ciudadanía peatón. Todas estas fuentes tienen en común el grifo para poder beber, sin tener en cuenta su morfología o material. Son aptas para el consumo humano.</string>
+    <string name="infoFontSingular">Ofrece agua de boca, sin embargo, las fuentes únicas tienden a tener un nombre específico con una historia o identidad propia, ya sea artística, arquitectónica o social, que las hace destacar del resto de las fuentes de agua potable normales.</string>
+    <string name="infoFontGos">Ofrece agua de boca apta para el consumo humano, pero están adaptadas para beber animales, normalmente en zonas de ocio y plazas.</string>
+</resources>
