@@ -12,7 +12,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "cat.copernic.projecte.fonts_terrassa"
+        applicationId "oat.terrassa.projecte.fonts_terrassa"
         minSdk 23
         targetSdk 33
         versionCode 22
