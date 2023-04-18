@@ -85,8 +85,14 @@ class MainActivity : AppCompatActivity() {
     }
     private fun showExplanationDialog() {
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
-        builder.setTitle("Bienvenido a mi aplicación")
-        builder.setMessage("Esta aplicación te permite hacer X, Y y Z. ¿Estás listo para empezar?")
+        builder.setTitle("L'Observatori d'aigua de Terrassa (OAT) et dona la benvinguda a l'aplicació Fonts Terrassa")
+        builder.setMessage("Amb aquesta aplicació podràs trobar i conèixer totes les fonts que es troben a la ciutat.\n" +
+                "\n" +
+                "En obrir l'aplicació, veureu un mapa interactiu de la ciutat amb diferents gotes d'aigua marcades. Cada gota d'aigua representa una font a la ciutat, i el color indica el tipus de font que és. A la part dreta de la pantalla, trobareu l'apartat d'informació sobre les fonts, on podreu obtenir detalls addicionals sobre cadascuna.\n" +
+                "\n" +
+                "Per obtenir més informació sobre una font en particular, simplement fes clic a la gota corresponent al mapa. Això us mostrarà l'adreça de la font i el seu nom. Si fas clic al nom de la font, seràs portat a una altra pàgina on podràs veure una imatge de la font, així com les seves característiques i tindrás l'opció d'evaluar la font visitada.\n" +
+                "\n" +
+                "També una de les funcionalitats que té l'aplicació, al menú el botó de l'esquerra trobaràs un llistat en ordre alfabètic amb totes les fonts, on també les podràs buscar pel nom i llistar-les.")
         builder.setPositiveButton("Sí") { dialogInterface: DialogInterface, i: Int ->
             // Aquí puedes poner código para empezar la aplicación
         }

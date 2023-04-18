@@ -12,7 +12,7 @@
     <string name="ajuntament">Ajuntament de Terrassa</string>
     <string name="oat">Observatori de l\'Aigua de Terrassa</string>
     <string name="version">Versió de l\'aplicació: 1.0.0</string>
-    <string name="autors">Roger Puig Font i Xavi Carné Plandolit</string>
+    <string name="autors">Roger Puig, Xavi Carné, Marcos López i Joan Galindo</string>
     <string name="language">Idioma</string>
     <string name="admin">Administrador</string>
     <string name="email">Correu electrònic</string>
@@ -106,7 +106,7 @@
     <string name="valoracions">valoracions</string>
     <string name="disponible">DISPONIBLE</string>
     <string name="no_disponible">NO DISPONIBLE</string>
-    <string name="copernic">Institut Nicolau Copèrnic</string>
+    <string name="copernic">Institut Nicolau Copèrnic:</string>
     <string name="avalua">Avalua</string>
     <string name="nota_login">Nota: Zona només per creadors de l\'aplicació</string>
     <string name="incidencia">Informar incidència</string>
