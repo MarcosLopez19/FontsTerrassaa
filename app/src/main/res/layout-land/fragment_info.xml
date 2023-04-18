@@ -18,17 +18,20 @@
             android:layout_height="wrap_content"
             android:background="@color/mainBackground">
 
+
+
             <TextView
-                android:id="@+id/txt_terrassa"
+                android:id="@+id/txt_agraiments"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="41dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="10dp"
                 android:fontFamily="@font/montserrat"
-                android:text="@string/ajuntament"
+                android:text="Agraïments:"
                 android:textColor="@color/textColor"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/spinner_language" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_observatori" />
 
             <TextView
                 android:id="@+id/txt_oat"
@@ -37,22 +40,24 @@
                 android:layout_marginStart="41dp"
                 android:layout_marginTop="10dp"
                 android:fontFamily="@font/montserrat"
-                android:text="@string/oat"
+                android:text="Grup de treball qualitat i sabor de l'aigua (OAT):"
                 android:textColor="@color/textColor"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_terrassa" />
+                app:layout_constraintTop_toBottomOf="@+id/txt_autors" />
 
             <TextView
                 android:id="@+id/txt_copernic"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="41dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="30dp"
                 android:fontFamily="@font/montserrat"
                 android:text="@string/copernic"
                 android:textColor="@color/textColor"
+                android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/txt_oat" />
+                app:layout_constraintTop_toBottomOf="@+id/spinner_language" />
 
             <TextView
                 android:id="@+id/txt_autors"
@@ -60,13 +65,36 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="41dp"
                 android:layout_marginTop="10dp"
-                android:layout_marginBottom="20dp"
                 android:fontFamily="@font/montserrat"
                 android:text="@string/autors"
                 android:textColor="@color/textColor"
-                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/txt_copernic" />
+
+            <TextView
+                android:id="@+id/txt_observatori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Beatriz Escribano, Pilar Quintanilla, Juana Martin"
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_oat" />
+
+            <TextView
+                android:id="@+id/txt_colaboradors"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="41dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="41dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Institut Nicolau Copernic, Esther Sánchez, Catedra Unesco de Sosteniblitat de la UPC, Eva Nogueras i ajuntament de Terrassa."
+                android:textColor="@color/textColor"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txt_agraiments" />
 
             <Button
                 android:id="@+id/btn_beure"
