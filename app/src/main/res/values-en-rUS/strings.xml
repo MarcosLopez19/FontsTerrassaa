@@ -12,7 +12,7 @@
     <string name="administrar_usuaris">Activate Users</string>
     <string name="adreca">Address</string>
     <string name="ajuntament">Ajuntament de Terrassa</string>
-    <string name="autors">Roger Puig Font and Xavi Carné Plandolit</string>
+    <string name="autors">Roger Puig, Xavi Carné, Marcos López and Joan Galindo</string>
     <string name="buit">Is Empty</string>
     <string name="camps_no_omplerts">There are one or more mising fields, check the name and/or the coordinates</string>
     <string name="carregant_app">Loading...</string>
@@ -136,7 +136,7 @@
     <string name="no_disponible">NOT AVAILABLE</string>
     <string name="garentia_sanitaria">Water without sanitary guarantee</string>
     <string name="valoracions">ratings</string>
-    <string name="copernic">Institut Nicolau Copèrnic</string>
+    <string name="copernic">Institute Nicolau Copèrnic:</string>
     <string name="avalua">Evaluate</string>
     <string name="nota_login">Nota: no se que posar exactament xd</string>
     <string name="incidencia">Report incidence</string>
@@ -148,4 +148,8 @@
     <string name="infoFontBeure">"It offers mouth watering to pedestrian citizens. All these fountains have in common the tap to be able to drink, regardless of their morphology or material. They are suitable for human consumption. "</string>
     <string name="infoFontSingular">It offers mouth watering, however, unique fountains tend to have a specific name with a history or identity of its own whether artistic, architectural or social that makes it stand out from the rest of the normal drinking fountains.</string>
     <string name="infoFontGos">It offers drinking water suitable for human consumption, but they are adapted for drinking by animals, usually in leisure areas and squares.</string>
+    <string name="grupOat">Water quality and taste working group (OAT):</string>
+    <string name="membres_oat">Beatriz Escribano, Pilar Quintanilla and Juana Martin</string>
+    <string name="agraiments">Gratefulness to:</string>
+    <string name="grup_agraiments">"Institute Nicolau Copernic, Esther Sánchez, UNESCO Cathedra of Sustainability of the UPC , Eva Nogueras and Terrassa town hall. "</string>
 </resources>

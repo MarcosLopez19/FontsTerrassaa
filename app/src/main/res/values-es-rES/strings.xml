@@ -13,7 +13,7 @@
     <string name="ajuntament">Ajuntament de Terrassa</string>
     <string name="oat">Observatori de l\'Aigua de Terrassa</string>
     <string name="version">Versión de la aplicación</string>
-    <string name="autors">Roger Puig Font i Xavi Carné Plandolit</string>
+    <string name="autors">Roger Puig, Xavi Carné, Marcos López y Joan Galindo</string>
     <string name="language">Idioma</string>
     <string name="admin">Administrador</string>
     <string name="email">Correo electrónico</string>
@@ -136,7 +136,7 @@
     <string name="no_disponible">NO DISPONIBLE</string>
     <string name="garentia_sanitaria">" Agua sin garantía sanitaria"</string>
     <string name="valoracions">valoraciones</string>
-    <string name="copernic">Institut Nicolau Copèrnic</string>
+    <string name="copernic">Instituto Nicolau Copèrnic:</string>
     <string name="avalua">Evalúa</string>
     <string name="nota_login">Nota: no se que posar exactament xd</string>
     <string name="incidencia">Informar incidencia</string>
@@ -148,4 +148,8 @@
     <string name="infoFontBeure">Ofrece agua de boca a la ciudadanía peatón. Todas estas fuentes tienen en común el grifo para poder beber, sin tener en cuenta su morfología o material. Son aptas para el consumo humano.</string>
     <string name="infoFontSingular">Ofrece agua de boca, sin embargo, las fuentes únicas tienden a tener un nombre específico con una historia o identidad propia, ya sea artística, arquitectónica o social, que las hace destacar del resto de las fuentes de agua potable normales.</string>
     <string name="infoFontGos">Ofrece agua de boca apta para el consumo humano, pero están adaptadas para beber animales, normalmente en zonas de ocio y plazas.</string>
+    <string name="grupOat">Grupo de trabajo calidad y sabor del agua (OAT):</string>
+    <string name="membres_oat">Beatriz Escribano, Pilar Quintanilla y Juana Martin</string>
+    <string name="agraiments">Agradecimientos:</string>
+    <string name="grup_agraiments">Instituto Nicolau Copernic, Esther Sánchez, Cátedra UNESCO de Sostenibilidad de la UPC, Eva Nogueras y ayuntamiento de Terrassa.</string>
 </resources>

@@ -15,7 +15,7 @@
     <string name="ajuntament">Ajuntament de Terrassa</string>
     <string name="oat">Observatori de l\'Aigua de Terrassa</string>
     <string name="version">Versió de l\'aplicació: 1.0.0</string>
-    <string name="autors">Roger Puig Font i Xavi Carné Plandolit</string>
+    <string name="autors">Roger Puig, Xavi Carné, Marcos López i Joan Galindo</string>
     <string name="admin">Administrador</string>
     <string name="password">Contrasenya</string>
     <string name="email">Correu electrònic</string>
@@ -136,7 +136,7 @@
     <string name="gps_network_not_enabled">Per carregar les fonts, tindrà que activar la ubicació del dispositiu, activa-la i torna-ho a provar</string>
     <string name="garentia_sanitaria">Aigua sense garantia sanitària</string>
     <string name="valoracions">valoracions</string>
-    <string name="copernic">Institut Nicolau Copèrnic</string>
+    <string name="copernic">Institut Nicolau Copèrnic:</string>
     <string name="avalua">Avalua</string>
     <string name="nota_login">Nota: Zona només per creadors de l\'aplicació</string>
     <string name="incidencia">Informar incidència</string>
@@ -148,4 +148,8 @@
     <string name="infoFontBeure">"Ofereix aigua de boca a la ciutadania vianant. Totes aquestes fonts tenen en comú l'aixeta per poder beure, sense tenir en compte la seva morfologia o material. Són aptes per al consum humà. "</string>
     <string name="infoFontSingular">"Ofereix aigua de boca, però, les fonts singulars acostumen a tenir un nom determinat amb una història o identitat pròpia ja sigui artística, arquitectònica o social que la fa destacar de la resta de les fonts de beure normals. "</string>
     <string name="infoFontGos">"Ofereix aigua de boca apta pel consum humà, però estan adaptades per beure-hi els animals, normalment en zones de lleure i places. "</string>
+    <string name="grupOat">Grup de treball qualitat i sabor de l\'aigua (OAT):</string>
+    <string name="membres_oat">Beatriz Escribano, Pilar Quintanilla i Juana Martin</string>
+    <string name="agraiments">Agraïments:</string>
+    <string name="grup_agraiments">Institut Nicolau Copernic, Esther Sánchez, Catedra Unesco de Sostenibilitat de la UPC, Eva Nogueras i ajuntament de Terrassa.</string>
 </resources>
