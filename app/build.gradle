@@ -12,11 +12,11 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "oat.terrassa.projecte.fonts_terrassa"
+        applicationId "oat.copernic.projecte.fonts_terrassa"
         minSdk 23
         targetSdk 33
-        versionCode 22
-        versionName "1.1"
+        versionCode 23
+        versionName "1.1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
