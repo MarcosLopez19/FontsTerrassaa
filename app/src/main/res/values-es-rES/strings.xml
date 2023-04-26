@@ -151,5 +151,8 @@
     <string name="grupOat">Grupo de trabajo calidad y sabor del agua (OAT):</string>
     <string name="membres_oat">Beatriz Escribano, Pilar Quintanilla y Juana Martin</string>
     <string name="agraiments">Agradecimientos:</string>
-    <string name="grup_agraiments">Instituto Nicolau Copernic, Esther Sánchez, Cátedra UNESCO de Sostenibilidad de la UPC, Eva Nogueras y ayuntamiento de Terrassa.</string>
+    <string name="grup_agraiments">Instituto Nicolau Copernic, Esther Sánchez, Cátedra UNESCO de Sostenibilidad de la UPC, Eva Nogueras, Paco Rodriguez y ayuntamiento de Terrassa.</string>
+    <string name="titol_inici">El Observatorio de agua de Terrassa (OAT) te da la bienvenida</string>
+    <string name="descripcio_inici">En esta aplicación puedes encontrar y conocer las fuentes de nuestra ciudad. Al abrir la aplicación, verás un mapa interactivo de Terrassa con distintas gotas de agua marcadas. Cada gota de agua representa una fuente y el color identifica su tipología. En la parte derecha de la barra de navegación encontrarás el apartado de información sobre las fuentes. Si quieres más información sobre una fuente particular, simplemente pulsa el nombre de la gota y te llevará a otra página donde verás una imagen de la fuente acompañada de la opción de evaluar el agua de la fuente visitada. Por otro lado, al pulsar el botón de la izquierda de la barra de navegación, también puedes listar las fuentes ordenadas alfabéticamente.</string>
+    <string name="boto_aprovar">"De acuerdo "</string>
 </resources>

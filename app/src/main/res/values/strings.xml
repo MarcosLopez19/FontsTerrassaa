@@ -155,6 +155,13 @@
     <string name="grupOat">Grup de treball qualitat i sabor de l\'aigua (OAT):</string>
     <string name="membres_oat">Beatriz Escribano, Pilar Quintanilla i Juana Martin</string>
     <string name="agraiments">Agraïments:</string>
-    <string name="grup_agraiments">Institut Nicolau Copernic, Esther Sánchez, Catedra Unesco de Sostenibilitat de la UPC, Eva Nogueras i ajuntament de Terrassa.</string>
-
+    <string name="grup_agraiments">Institut Nicolau Copernic, Esther Sánchez, Catedra UNESCO de Sostenibilitat de la UPC, Eva Nogueras, Paco Rodriguez i ajuntament de Terrassa.</string>
+    <string name="titol_inici">L\'Observatori d\'aigua de Terrassa (OAT) et dona la benvinguda</string>
+    <string name="descripcio_inici">En aquesta aplicació pots trobar i conèixer les fonts de la nostra ciutat.\n" +
+                "A l’obrir l’aplicació, veuràs un mapa interactiu de Terrassa amb diferents gotes d’aigua marcades.\n" +
+                "Cada gota d’aigua representa una font i el color identifica la seva tipologia.\n" +
+                "A la part dreta de la barra de navegació trobaràs l’apartat d’informació sobre les fonts. \n" +
+                "Si vols més informació sobre una font particular, simplement clica el nom de la gota i et portarà a una altra pàgina on veuràs una imatge de la font acompanyada de l’opció d’avaluar l’aigua de la font visitada.\n" +
+                "D’altra banda, al clicar el botó de l’esquerra de la barra de navegació, també pots llistar les fonts ordenades alfabèticament.\n</string>
+    <string name="boto_aprovar">D\'acord</string>
 </resources>
