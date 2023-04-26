@@ -151,5 +151,8 @@
     <string name="grupOat">Water quality and taste working group (OAT):</string>
     <string name="membres_oat">Beatriz Escribano, Pilar Quintanilla and Juana Martin</string>
     <string name="agraiments">Gratefulness to:</string>
-    <string name="grup_agraiments">"Institute Nicolau Copernic, Esther Sánchez, UNESCO Cathedra of Sustainability of the UPC , Eva Nogueras and Terrassa town hall. "</string>
+    <string name="grup_agraiments">"Institute Nicolau Copernic, Esther Sánchez, UNESCO Cathedra of Sustainability of the UPC , Eva Nogueras, Paco Rodriguez and Terrassa town hall. "</string>
+    <string name="titol_inici">The Terrassa Water Observatory (OAT) welcomes you</string>
+    <string name="descripcio_inici">In this application you can find and learn about the fountains of our city. When you open the application, you will see an interactive map of Terrassa with different drops of water marked. Each drop of water represents a source and the color identifies its type. On the right side of the navigation bar you will find the information section about the sources. If you want more information about a particular source, simply click on the name of the drop and it will take you to another page where you will see an image of the source accompanied by the option to rate the water of the visited source. On the other hand, by clicking the button on the left of the navigation bar, you can also list the sources in alphabetical order.</string>
+    <string name="boto_aprovar">OK</string>
 </resources>

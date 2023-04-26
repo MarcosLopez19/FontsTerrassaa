@@ -9,9 +9,13 @@ import android.content.DialogInterface
 import android.content.SharedPreferences
 import android.content.pm.PackageManager
 import android.content.res.Configuration
+import android.graphics.Color
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
 import android.os.Bundle
+import android.text.Html
+import android.view.LayoutInflater
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
@@ -21,6 +25,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
 import cat.copernic.projecte.fonts_terrassa.databinding.ActivityMainBinding
 import kotlinx.coroutines.*
+import org.checkerframework.checker.units.qual.m
 import java.util.*
 
 
@@ -85,15 +90,9 @@ class MainActivity : AppCompatActivity() {
     }
     private fun showExplanationDialog() {
         val builder: AlertDialog.Builder = AlertDialog.Builder(this)
-        builder.setTitle("L'Observatori d'aigua de Terrassa (OAT) et dona la benvinguda!")
-        builder.setMessage("Amb aquesta aplicació podràs trobar i conèixer totes les fonts que es troben a la ciutat.\n" +
-                "\n" +
-                "En obrir l'aplicació, veureu un mapa interactiu de la ciutat amb diferents gotes d'aigua marcades. Cada gota d'aigua representa una font a la ciutat, i el color indica el tipus de font que és. A la part dreta de la pantalla, trobareu l'apartat d'informació sobre les fonts, on podreu obtenir detalls addicionals sobre cadascuna.\n" +
-                "\n" +
-                "Per obtenir més informació sobre una font en particular, simplement fes clic a la gota corresponent al mapa. Això us mostrarà l'adreça de la font i el seu nom. Si fas clic al nom de la font, seràs portat a una altra pàgina on podràs veure una imatge de la font, així com les seves característiques i tindrás l'opció d'evaluar la font visitada.\n" +
-                "\n" +
-                "També una de les funcionalitats que té l'aplicació, al menú el botó de l'esquerra trobaràs un llistat en ordre alfabètic amb totes les fonts, on també les podràs buscar pel nom i llistar-les.")
-        builder.setPositiveButton("D'acord") { dialogInterface: DialogInterface, i: Int ->
+        builder.setTitle(resources.getString(R.string.titol_inici))
+        builder.setMessage(resources.getString(R.string.descripcio_inici))
+        builder.setPositiveButton(resources.getString(R.string.boto_aprovar)) { dialogInterface: DialogInterface, i: Int ->
             // Aquí puedes poner código para empezar la aplicación
         }
         //builder.setNegativeButton("No") { dialogInterface: DialogInterface, i: Int ->
@@ -101,6 +100,11 @@ class MainActivity : AppCompatActivity() {
           //  finish()
        // }
         val dialog: AlertDialog = builder.create()
+        dialog.window?.setBackgroundDrawableResource(R.color.purple_500)
+
+        val messageView = dialog.findViewById<TextView>(android.R.id.message)
+        messageView?.setTextColor(ContextCompat.getColor(this, R.color.purple_200))
+
         dialog.show()
     }
     override fun onRequestPermissionsResult(

@@ -158,7 +158,7 @@ class viewFontFragment : Fragment() {
 
         binding.btnIncidencia.setOnClickListener {
             val uri =
-                Uri.parse("https://play.google.com/store/apps/details?id=com.idasasistemas.terrassacuidem")
+                Uri.parse("https://www.terrassa.cat/es/cuidemterrassa-incidencies")
 
             val intent = Intent(Intent.ACTION_VIEW, uri)
             startActivity(intent)
